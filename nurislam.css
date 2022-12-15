@@ -47,7 +47,8 @@ header{
 }
 
 .nav-links li{
-    margin: 0 50px;
+    margin: 0 40px;
+
 
 }
 .headerpart{
@@ -58,6 +59,12 @@ header{
 .headerpart h2{
     font-size: 4vmin;
 }
+
+.a:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s;
+}
+
 
 
 
