@@ -121,22 +121,28 @@ transition: 0.5s;
 
 }
 .partwo{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    background-color:rgb(27, 26, 21);
+    
 
 }
 h1{
     font-size: 36px;
     font-weight: 600;
+    color: rgb(162, 164, 167);
 }
 p{
-    color: #12100e;
+    color: #000000;
     font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+.ini{
+    color: #a1a09f;
 }
 .row{
     margin-top: 5%;
@@ -152,4 +158,25 @@ p{
     padding:20px 12px;
     box-sizing: border-box;
     margin: 5px;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.column:hover{
+    transform: translateY(-20px);
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+
+    }
+}
+.parthree{
+margin: auto;
+text-align: center;
+padding-top: 50px;
 }
