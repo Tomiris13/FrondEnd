@@ -56,4 +56,14 @@ transition: 0.5s;
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
+       
+}
+.text1 h1{
+    font-size: 62px;
+
+}.text1 p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: gold;
+
 }
