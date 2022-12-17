@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstP{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://static.bluescreen.kz/6827ef8325430ca58a5885142c26cf18.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
