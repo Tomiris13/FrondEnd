@@ -179,11 +179,96 @@ h3{
 margin: auto;
 text-align: center;
 padding-top: 50px;
+background-color: rgb(27,26, 21);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://inbusiness.kz/uploads/2022-7/P6YMnHnL.jpg);
+height: 900px;
+
 }
+.parthree p{
+    color: #9b9b97;
+}
+
 .column1{
+    text-align: right;
     flex-basis: 32%;
-    border-radius: 10px;
+
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin-right: 90px;
 }
+
+.column2{
+    text-align: left;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 40px;
+    
+}
+.column2 h3{
+    color: #9b9b97;
+    font-size: 30px;
+}
+.column2::after{
+    content: '';
+width: 0%;
+height: 2px;
+background: #a1a09f;
+display: block;
+margin:auto;
+transition: 0.5s;
+}
+
+.column3{
+    text-align: left;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 40px;
+    
+}
+
+.column3 h3{
+    color: #9b9b97;
+    font-size: 30px;
+
+}
+.column3::after{
+    content: '';
+width: 0%;
+height: 2px;
+background: #a1a09f;
+display: block;
+margin:auto;
+transition: 0.5s;
+}
+
+.column4{
+    text-align: left;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 40px;
+}
+
+.column4 h3{
+    color: #9b9b97;
+    font-size: 30px;
+}
+.column4::after{
+    content: '';
+width: 0%;
+height: 2px;
+background: #a1a09f;
+display: block;
+margin:auto;
+transition: 0.5s;
+}
+.column2:hover::after{
+    width: 100%;
+}
+.column3:hover::after{
+    width: 100%;
+}
+.column4:hover::after{
+    width: 100%;
+}
+
