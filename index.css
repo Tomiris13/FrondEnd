@@ -140,50 +140,59 @@ header{
 .learn{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
     padding: 8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+    
 }
 .learn .about{
-width: 39%;
+width: 100%;
 }
-.learn .brand{
-    width: 55%;
-}
+
 .learn .about h2{
 color:#212529;
-font-size: 2.1rem;
-padding-bottom: 1.8rem;
+font-size: 5rem;
+padding-bottom: 5rem;
+
 }
 .learn .about p{
     color: #7f8c8d;
-    font-size: 1.1rem;
+    font-size:2rem;
   
     }
-    .learn .brand{
-        width: 55%;
+    .card0{
+        width: 280px;
+        height: 325px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position:center();
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+    .card1{
+        background-image: url(https://wallpapercave.com/wp/wp4998022.jpg);
+    }
+    .card2{
+        background-image: url(https://mobimg.b-cdn.net/v3/fetch/0a/0ad60e4e07fc3da86b17665fac0511e5.jpeg);
+    }
+    .card3{
+        background-image: url(https://w0.peakpx.com/wallpaper/571/819/HD-wallpaper-tesla-x-modelx.jpg);
     }
     
-.learn .brand .team1{
-    width: 45%;
-    height: auto;
-    box-sizing: border-box;
-    background:#fff ;
-}
+    .cards{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+    padding: 8rem;
+   display: flex;
+   align-items: center;
+    }
 
-.learn .brand .team1 .img1 img{
-    width: 100%;
-    object-fit: cover;
+   .cards h1{
+    font-size: 6vmin;
+    color:rgb(168, 159, 159);
+    text-align: center;
 
-}
-.learn .brand .team1 .name{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-}
+    }
 @media only screen and (max-width:850px) {
     .navigation{
         padding: 0;
