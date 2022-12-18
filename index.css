@@ -158,22 +158,22 @@ padding-bottom: 5rem;
   
     }
     .card0{
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 325px;
         display: inline-block;
-        
         border-radius: 10px;
         padding: 15px 25px;
         box-sizing: border-box;
         cursor: pointer;
         margin: 10px 15px;
-        
+        background-position:center();
         background-size: cover;
         transition: transform 0.5s;
+        vertical-align:middle ;
+        
     }
     .card1{
         background-image: url(https://wallpapercave.com/wp/wp4998022.jpg);
-        
     }
     .card2{
         background-image: url(https://mobimg.b-cdn.net/v3/fetch/0a/0ad60e4e07fc3da86b17665fac0511e5.jpeg);
@@ -185,7 +185,11 @@ padding-bottom: 5rem;
     .cards{
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
     padding: 8rem;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
 
     }
 
@@ -193,7 +197,6 @@ padding-bottom: 5rem;
     font-size: 6vmin;
     color:rgb(168, 159, 159);
     text-align: center;
-   
 
     }
 @media only screen and (max-width:850px) {
