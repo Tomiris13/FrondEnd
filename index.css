@@ -334,19 +334,23 @@ padding-bottom: 5rem;
 @media only screen and (max-width:850px) {
     .navigation{
         padding: 0;
+        
     }
     
     
     .links{
         flex-direction: column;
-       
+        width: 100%;
+        height: 100vh;
         justify-content: center;
-        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
-       
+        background: rgb(31, 30, 30);
     }
    
     .links li{
         margin:10px auto;
+    }
+    .qwerty{
+        display: none;
     }
    
     
