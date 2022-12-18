@@ -2,12 +2,14 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    
+
 }
-.logo{
-    display: flex;
-    align-items: center;
-   
+html{
+    scroll-behavior: smooth;
 }
+
+
 ul{
     list-style: none;
 }
@@ -84,14 +86,14 @@ a{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     color: whitesmoke;
 
 }
 header{
-    width:100vw;
+    width:100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
     background-position: bottom;
@@ -99,9 +101,11 @@ header{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
 }
+
 .head{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     color: rgb(145, 135, 135);
     text-align: center;
     
@@ -132,15 +136,54 @@ header{
     
 }
 
-.Apple{
-    width: 100%;
+
+.learn{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+    padding: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8rem 15rem;
+
+}
+.learn .about{
+width: 39%;
+}
+.learn .brand{
+    width: 55%;
+}
+.learn .about h2{
+color:#212529;
+font-size: 2.1rem;
+padding-bottom: 1.8rem;
+}
+.learn .about p{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+  
+    }
+    .learn .brand{
+        width: 55%;
+    }
+    
+.learn .brand .team1{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    background:#fff ;
 }
 
+.learn .brand .team1 .img1 img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.learn .brand .team1 .name{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
 @media only screen and (max-width:850px) {
     .navigation{
         padding: 0;
@@ -149,8 +192,7 @@ header{
     
     .links{
         flex-direction: column;
-        width: 110%;
-        height: 100vh;
+       
         justify-content: center;
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
        
@@ -159,9 +201,6 @@ header{
     .links li{
         margin:10px auto;
     }
-    header{
-        
-    }
- 
+   
     
 }
