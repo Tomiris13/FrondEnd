@@ -4,6 +4,69 @@
     box-sizing: border-box;
 }
 .logo{
-    margin-left: 50px;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.links{
+    display: flex;
+    align-items: center;
+
+}
+.links li{
+    margin: 0 47px;
+
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+header{
+    width:100vw;
+    height: 100vh;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/050/612/660/large/jorge-hardt-minimalis-landscape-wallpaper-heroscreen.jpg?1655260155);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.head{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.head h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.head h1{
+    font-size: 50px;
+    margin-top: px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: red;
+    border-radius: 30px;
+    color: whitesmoke;
+    
 }
