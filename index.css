@@ -241,6 +241,26 @@ padding-bottom: 5rem;
         font-size:2rem;
       
         }
+.Samsung{
+       background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+        padding: 8rem;       
+  }
+       
+    .about2{
+        width: 100%;
+       }
+        
+    .about2 h1{
+        color:#212529;
+        font-size: 5rem;
+        padding-bottom: 5rem;
+        
+     }
+    .about2 p{
+            color: #7f8c8d;
+            font-size:2rem;
+          
+         }       
 @media only screen and (max-width:850px) {
     .navigation{
         padding: 0;
