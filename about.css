@@ -179,11 +179,20 @@ h3{
 margin: auto;
 text-align: center;
 padding-top: 50px;
+background-color: rgb(27,26, 21);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://inbusiness.kz/uploads/2022-7/P6YMnHnL.jpg);
+
 }
+.parthree p{
+    color: #9b9b97;
+}
+
 .column1{
+    text-align: right;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
+
