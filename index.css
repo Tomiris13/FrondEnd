@@ -41,6 +41,7 @@ ul{
 .t2:hover{
     transform: translateY(-3px);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 .t3:hover{
     transform: translateY(-3px);
@@ -59,11 +60,17 @@ ul{
     transform: translateY(-3px);
     transition-duration: 0.5s;
 }
+.t7:hover{
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
 
 
 
 .links li{
-    margin: 0 70px;
+    margin: 0 40px;
   
 
 }
@@ -71,12 +78,14 @@ a{
     text-decoration: none;
 }
 .navigation{
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 0;
     display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     color: whitesmoke;
 
@@ -120,5 +129,38 @@ header{
     background: rgb(145, 135, 135);
     border-radius: 30px;
     color: rgb(248, 239, 239);
+    
+}
+
+.Apple{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem;
+}
+@media only screen and (max-width:850px) {
+    .navigation{
+        padding: 0;
+    }
+    
+    
+    .links{
+        flex-direction: column;
+        width: 110%;
+        height: 100vh;
+        justify-content: center;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+       
+    }
+   
+    .links li{
+        margin:10px auto;
+    }
+    header{
+        
+    }
+ 
     
 }
