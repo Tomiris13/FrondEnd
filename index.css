@@ -17,9 +17,26 @@ ul{
 
 
 }
+.t2{
+    font-family:sans-serif;
+   font-size: larger;
+  
+}
+.t3{
+    font-family:sans-serif;
+   font-size: larger;
+  
+}
+.t4{
+    font-family:sans-serif;
+   font-size: larger;
+  
+}
+
 .t1:hover{
     transform: translateY(-3px);
     transition-duration: 0.5s;
+
 }
 .t2:hover{
     transform: translateY(-3px);
@@ -37,15 +54,8 @@ ul{
     transform: translateY(-3px);
     transition-duration: 0.5s;
 }
+
 .t6:hover{
-    transform: translateY(-3px);
-    transition-duration: 0.5s;
-}
-.t7:hover{
-    transform: translateY(-3px);
-    transition-duration: 0.5s;
-}
-.t8:hover{
     transform: translateY(-3px);
     transition-duration: 0.5s;
 }
@@ -53,8 +63,8 @@ ul{
 
 
 .links li{
-    margin: 0 32px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin: 0 70px;
+  
 
 }
 a{
@@ -89,7 +99,7 @@ header{
 }
 .head h2{
     font-size: 4vmin;
-    color:rgb(17, 15, 15);
+    color:rgb(168, 159, 159);
    
 }
 .line{
@@ -101,7 +111,7 @@ header{
 }
 .head h1{
     font-size: 50px;
-    margin-top: px;
+    margin-top: 0px;
     margin-bottom: 30px;
     color: rgb(17, 15, 15);
 }
