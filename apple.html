@@ -5,26 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="apple.css">
-    <title>Apple</title>
+    <title>InTouch</title>
 </head>
 <body>
-    <section class="sec">
-    <header>
+    <div class="navpart">
+                   
+        <ul>
+        <li><a href="index.html"style="text-decoration: none; color:rgb(164, 164, 164)"  > InTouch</a></li>
+        <li><a href="#lastp"style="text-decoration: none; color:rgb(164, 164, 164)"  > Контакты</a></li>
+        <li><a href=""style="text-decoration: none; color:rgb(164, 164, 164)" > Вакансии</a></li>
+        <li><a style="text-decoration: none; color:rgb(164, 164, 164)"  > +7 700 900 20 01</a></li>
+        <li><a style="text-decoration: none; color:rgb(164, 164, 164)"  > 9:00-21:00(пн-вс)</a></li>
+    </ul>
+    </div>
 
-        <div class="content">
-            <div class="text">
-                <h2>That's a new <br> <span>Iphone 14 PRO</span> </h2>
+
+    <section class="detail1">
+        <div class="page1">
+            <div class="text1">
+                <h2> Iphone<br> <span>14 PRO MAX</span> </h2>
                 <p>iPhone 14 Pro is powerful, perfectly shoots photos and videos, it has a cool feature with a “dynamic island”. It also has one of the best screens on the market with a selective Always On mode.</p>
-                 <a href="">View all products</a>
+                 <a href="">Buy now</a>
             </div>
-            <div class="box">
-                <img src="C:\Users\Asus\OneDrive\Рабочий стол\third3.png" class="phone">
+            <div class="box1">
+                <img src="third3.png" class="phone">
             </div>
-
         </div>
-    </header>
+        <ul class="click">
+            <li><img src="third3.png" onclick="changePhoto('third3.png');changeColor( 'rgb(75, 65, 82)')"></li>
+            <li><img src="second2.png" onclick="changePhoto('second2.png');changeColor('rgb(243, 226, 198)')"></li>
+            <li><img src="first11.png" onclick="changePhoto('first11.png');changeColor('rgb(67, 65, 63)')"></li>
+            <li><img src="four.png" onclick="changePhoto('four.png');changeColor('rgb(245, 248, 247)')"></li>
+        </ul>
 </section>
 
-    
+
+<section class="detail2">
+    <div class="page2">
+        <div class="text2">
+            <h2> iPad 10.9 </h2>
+            <br>
+            <br>
+            <p>The all-new iPad is colorfully reimagined to be more capable, more intuitive, and even more fun. With a new all‑screen design, 10.9-inch Liquid Retina display, and four gorgeous colors, iPad delivers a powerful way to get things done, create, and stay connected.1 Add on essential accessories designed just for iPad and enjoy endless versatility for everything you love to do.</p>
+             <a href="">Buy now</a>
+        </div>
+        <div class="box2">
+            <img src="ipad1.png" class="ipad">
+        </div>
+    </div>
+    <ul class="click2">
+        <li><img src="ipad1.png" onclick="changePhoto('ipad1.png');changeColor( 'rgb(176, 177, 178)')"></li>
+        <li><img src="ipad2.png" onclick="changePhoto('ipad2.png');changeColor('rgb(118, 149, 185)')"></li>
+        <li><img src="ipad3.png" onclick="changePhoto('ipad3.png');changeColor('rgb(240, 219, 99)')"></li>
+        <li><img src="ipad4.png" onclick="changePhoto('ipad4.png');changeColor('rgb(235, 106, 126)')"></li>
+    </ul>
+</section>
+
+
+
+
+
+
+
+   <script  src="apple.js">  </script>
+ 
 </body>
 </html>
