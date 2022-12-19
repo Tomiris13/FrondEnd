@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    height: 1000px;
+    background-image: url("https://phonoteka.org/uploads/posts/2022-02/1645043381_1-phonoteka-org-p-interesnii-belii-fon-1.jpg");
+}
+
+.section-g {
+    height: 600px;
+    background-color: transparent;
+    position: relative;
+  }
+  .content-g {
+    width: 1280px/1366px * 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+  .slider{
+      width: 1100px;
+      height: 500px;
+      overflow: hidden;    
+  }
+  .middle{
+      position: absolute;
+      top: -32.5%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+  }
+  .navigation{
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  }
+  .bar{
+      height: 8px;
+      width: 30px;
+      margin: 6px;
+      cursor: pointer;
+      background-color: #ddd;
+      opacity: .5;
+      border-radius: 10px;
+      transition: all .4s ease;
+  }
+  .bar:hover{
+      opacity: 1;
+      transform: scale(1.1);
+  }
+  input[name="r"] {
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+      width: 400%;
+      height: 100%;
+      display: flex;
+  }
+  .slide{
+      width: 25%;
+      transition: all .6s ease;   
+  }
+
+  #r1:checked ~ .s1 {
+      margin-left: 0;
+  }
+  
+  #r2:checked ~ .s1 {
+      margin-left: -25%;
+  }
+  
+  #r3:checked ~ .s1 {
+      margin-left: -50%;
+  }
+  
+  #r4:checked ~ .s1 {
+      margin-left: -75%;
+  }
+  .huawei{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .product{
+    border-radius: 10px;
+    width:200px;
+    height:230px;
+    box-sizing:border-box;
+    margin:10px 15px;
+    display:flex;
+    align-items: center
+  }
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 20px 20px 0 0;
+    border: 2px solid black;
+}
+
+.product_wrap{
+    justify-content: center;
+}
+
+.motorola{
+    margin-left: 110px;
+}
