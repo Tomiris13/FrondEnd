@@ -100,4 +100,47 @@ body{
 
 
 
-  
+  .lastlogo{
+    background-color: rgb(35, 30, 30);
+    height: 300px;
+    width: 100%;
+
+}
+
+.lastimg{
+    margin-left: 100px;
+}
+
+.whatsapp{
+  text-align: right;
+  margin-top: 150px;
+  margin-right: 30px;
+}
+
+.lastimg h2{
+    margin: -130px 250px;
+    color: rgb(191, 191, 191);
+    font-family: initial;
+    font-size: 25px;
+}
+
+.mapofsite{
+    color: rgb(188, 181, 181);
+    margin-left: 250px;
+    margin-top: -430px;
+    font-family: initial;
+    font-size: 20px;
+}
+.infobig h1{
+    color: rgb(179, 174, 174);
+    margin-left: -10px;
+    
+}
+
+.info{
+    color: rgb(172, 172, 172);
+    font-family: initial;
+    margin-left: 1000px;
+    margin-top: -300px;
+    font-size: 20px;
+}
