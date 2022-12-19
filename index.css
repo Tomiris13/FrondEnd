@@ -333,8 +333,14 @@ padding-bottom: 5rem;
     
 @media only screen and (max-width:850px) {
     .navigation{
-        padding: 0;
-        
+        background:rgb(130, 130,135);
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        right: 0;
+        text-align: center;
+        z-index: 2;
+        font-size: 21px;
     }
     
     
@@ -343,7 +349,7 @@ padding-bottom: 5rem;
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background: rgb(31, 30, 30);
+       
     }
    
     .links li{
@@ -357,5 +363,6 @@ padding-bottom: 5rem;
     top: 30px;
     left: 30px;
    }
+   
     
 }
