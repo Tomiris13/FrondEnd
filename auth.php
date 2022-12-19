@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="auth.css" rel="stylesheet" />
+    <title>Authorization</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="enter your username">
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="enter your password">
+        <button>Login</button>
+        <p>
+            You don't have an account? <a href="register.php">Sign up!</a>
+        </p>
+    </form>
+   
+</body>
+</html>
