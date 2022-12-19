@@ -179,6 +179,7 @@ text-transform: uppercase;
         max-width: 30px;
     }
         }
+        
       
 
         .detail2{
@@ -307,6 +308,133 @@ text-transform: uppercase;
                 max-width: 30px;
             }
                 }
+                .detail3{
+                    position: relative;
+                    width: 100%;
+                    min-height: 100vh;
+                    padding: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: rgb(75, 65, 82);
+                    
+                
+                }
+                .page3{
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .text3{
+                    position: relative;
+                    font-weight: 900;
+                    max-width: 600px;
+                
+                }
+                .text3 h2{
+                    color: rgb(14, 9, 9);
+                    font-size: 3em;
+                    line-height: 1.5em;
+                    font-weight: 900;
+                    
+                    
+                }
+                .text3 h2 span{
+                    font-size: 1.5em;
+                }
+                .text3 p{
+                    color:rgb(31, 25, 25);
+                }
+                .text3 a{
+                display: inline-block;
+                margin-top: 20px;
+                padding: 8px 20px;
+                background: #fff;
+                color:#111;
+                border-radius: 40px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                text-decoration: none;
+                
+                }
+                
+                .box3{
+                   width: 600px;
+                   display: flex;
+                   padding-right: 50px;
+                   margin-top: 50px;
+                   justify-content: flex-end;
+                
+                
+                }
+                .box3 img{
+                    max-width: 300px;
+                
+                }
+                .click3{
+                    position:absolute;
+                    left: 50%;
+                    bottom:20px;
+                    transform:translateX(-50%) ;
+                    display: flex;
+                }
+                .click3 li{
+                    list-style: none;
+                    display: inline-block;
+                    margin: 0 20px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+                .click3 li:hover{
+                    transform: translateY(-15px);
+                
+                }
+                
+                .click3 li img{
+                    max-width: 100px;
+                }
+         @media(max-width:850px){
+           
+          .detail3{
+              padding: 40px;
+             padding-bottom: 140px;
+                 }
+        .page3{
+            margin-top: 80px;
+                 flex-direction: column;
+                    }
+                    .text3{
+                        position: relative;
+                        max-width: 100%;
+                        padding-right: 20px;
+                    }
+                    .tex32 h2{
+                        font-size: 3em;
+                
+                    }
+                    .text3 a{
+                        display: inline-block;
+                        margin-top: 20px;
+                        padding: 8px 15px;
+                    }
+                    .box3{
+                        width: 100%;
+                        padding-right: 0;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 50px;
+                
+                    }
+                    .box3 img{
+                        max-width: 150px;
+                    }
+                    .click3 li img{
+                        max-width: 30px;
+                    }
+                        }               
+                
               
         
 
