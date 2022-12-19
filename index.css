@@ -135,7 +135,14 @@ header{
     color: rgb(248, 239, 239);
     
 }
-
+.ctn1{
+    padding: 20px 20px;
+    background: rgb(145, 135, 135);
+    border-radius: 30px;
+    color: rgb(1, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
 
 .learn{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
@@ -169,18 +176,25 @@ padding-bottom: 5rem;
         background-position:center();
         background-size: cover;
         transition: transform 0.5s;
-        vertical-align:middle ;
+        font-size: larger;
+    
+      
         
     }
     .card1{
-        background-image: url(https://wallpapercave.com/wp/wp4998022.jpg);
+       
+        background-image: url(https://i.pinimg.com/originals/cc/4a/62/cc4a62534f5886c45a1122e668ebc25d.jpg);
     }
     .card2{
-        background-image: url(https://mobimg.b-cdn.net/v3/fetch/0a/0ad60e4e07fc3da86b17665fac0511e5.jpeg);
+        background-image: url(https://i.pinimg.com/236x/47/0a/ce/470acea0d9ef7e5a73201a8238e8c3f3.jpg);
     }
     .card3{
-        background-image: url(https://w0.peakpx.com/wallpaper/571/819/HD-wallpaper-tesla-x-modelx.jpg);
+        background-image: url(https://i.pinimg.com/474x/be/2e/07/be2e07f7ed7f13431ddb05d79ebff0f0.jpg);
     }
+    .card0:hover{
+        transform: translateY(-20px);
+    }
+    
     
     .cards{
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
@@ -188,9 +202,15 @@ padding-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-  
+    
 
+
+    }
+    .cards h2{
+        color:rgb(145,135,135);
+    }
+    .cards p{
+        color:rgb(145,135,135);
     }
 
    .cards h1{
@@ -199,23 +219,143 @@ padding-bottom: 5rem;
     text-align: center;
 
     }
+    .apple{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+        padding: 8rem;
+        
+        
+    }
+   
+    .about1{
+    width: 100%;
+    }
+    
+    .about1 h1{
+    color:#212529;
+    font-size: 5rem;
+    padding-bottom: 5rem;
+    
+    }
+   .about1 p{
+        color: #7f8c8d;
+        font-size:2rem;
+      
+        }
+.Samsung{
+       background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+        padding: 8rem;       
+  }
+       
+    .about2{
+        width: 100%;
+       }
+        
+    .about2 h1{
+        color:#212529;
+        font-size: 5rem;
+        padding-bottom: 5rem;
+        
+     }
+    .about2 p{
+            color: #7f8c8d;
+            font-size:2rem;
+          
+         }   
+.huawei{
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
+             padding: 8rem;       
+}
+            
+ .about3{
+     width: 100%;
+         }
+             
+.about3 h1{
+     color:#212529;
+     font-size: 5rem;
+      padding-bottom: 5rem;
+             
+          }
+ .about3 p{
+       color: #7f8c8d;
+      font-size:2rem;
+               
+    }      
+    .footer{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+   
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{
+        background-color: rgb(145, 135, 135);
+        padding: 70px 0;
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 30px;
+        color: #242020;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .footer-col ul li a{
+        font-size: 15px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+     
+  
+    
 @media only screen and (max-width:850px) {
     .navigation{
         padding: 0;
+        
     }
     
     
     .links{
         flex-direction: column;
-       
+        width: 100%;
+        height: 100vh;
         justify-content: center;
-        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://phonoteka.org/uploads/posts/2021-07/1625237947_13-phonoteka-org-p-belii-mramor-s-zolotom-oboi-oboi-krasivo-15.jpg);
-       
+        background: rgb(31, 30, 30);
     }
    
     .links li{
         margin:10px auto;
     }
-   
+    .qwerty{
+        display: none;
+    }
+   .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+   }
     
 }
