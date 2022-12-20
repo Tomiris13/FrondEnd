@@ -78,6 +78,7 @@ transition: 0.5s;
     position: relative;
     cursor:help;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -90,40 +91,7 @@ html{
             display: none;
         }
 
-@media(max-width:700px){
-    .text1 h1{
-        font-size: 20px;
-    }
-    .navpart ul li{
-        display:block;
-    }
-   
-    .navpart{
-       
-        background: #741010;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: center;
-        z-index: 2;
-        font-size: 21px;
-
-    }
-        nav .fa{
-            display: block;
-            color: #a1a09f;
-            margin: 10px;
-            font-size: 22px;
-            cursor: pointer;            
-        }
-        .navpart  ul{
-                padding: 130px;
-                
-
-        }
-
-}
+      
 .partwo{
     width: 100%;
     margin: auto;
@@ -177,6 +145,9 @@ h3{
     .row{
         flex-direction: column;
 
+    }
+    .text1{
+        display: none;
     }
 }
 .parthree{
