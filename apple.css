@@ -5,7 +5,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navpart{
-   background-color: rgb(75, 65, 82);
+   background-color: rgb(52, 46, 56);
     text-align: center;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -128,7 +128,7 @@ text-transform: uppercase;
    
     .navpart{
        
-        background:rgb(41, 50,65);
+        background:rgb(52, 46, 56);
         height: 100%;
         width: 100%;
         top: 0;
@@ -434,7 +434,53 @@ text-transform: uppercase;
                         max-width: 30px;
                     }
                         }               
-                
+                        .footer{
+                            line-height: 1.5;
+                            font-family: 'Poppins', sans-serif;
+                        }
+                       
+                        .container{
+                            max-width: 1170px;
+                            margin:auto;
+                        }
+                        .row{
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        ul{
+                            list-style: none;
+                        }
+                        .footer{
+                            background-color: rgb(52, 46, 56);
+                            padding: 70px 0;
+                        }
+                        .footer-col{
+                           width: 25%;
+                           padding: 0 15px;
+                        }
+                        .footer-col h4{
+                            font-size: 20px;
+                            color: #f3f0f0;
+                            text-transform: capitalize;
+                            margin-bottom: 35px;
+                            font-weight: 500;
+                            position: relative;
+                        }
+                        
+                        .footer-col ul li a{
+                            font-size: 15px;
+                            text-transform: capitalize;
+                            color: #ffffff;
+                            text-decoration: none;
+                            font-weight: 300;
+                            color: #bbbbbb;
+                            display: block;
+                            transition: all 0.3s ease;
+                        }
+                        .footer-col ul li a:hover{
+                            color: #ffffff;
+                            padding-left: 8px;
+                        }               
               
         
 
