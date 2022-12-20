@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require_once 'connect.php';
+	require_once 'connect2.php';
 
 	$username = $_POST['username'];
 	$first_name = $_POST['first_name'];
@@ -14,7 +14,7 @@
 	if ($password === $password_confirm) {
 		mysqli_query($connect, "INSERT INTO `users` (`id`, `username`, `first_name`, `last_name`, `password`, `phone`, `email`) VALUES (NULL, '$username', '$first_name', '$last_name', '$password', '$phone', '$email')");
 		$_SESSION['message'] = 'Registration completed successfully!';
-		header('Location: auth.php');
+		header('Location: auth2.php');
 	} else {
 	$_SESSION['message'] = 'Passwords do not match';
 	header('Location: register.php');
